@@ -7,7 +7,7 @@ def bubbleSort(ls):
         counter+=1
         print ls
     
-def swap(ls, aIndex, bIndex): # why swap(x,y) doesn't work?
+def swap(ls, aIndex, bIndex): # why swap(x,y) doesn't work?...
     temp = ls[aIndex]
     ls[aIndex] = ls[bIndex]
     ls[bIndex] = temp
